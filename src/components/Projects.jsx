@@ -2,10 +2,13 @@ import React from "react";
 import project1 from "/project1.png";
 import project2 from "/project2.png";
 import project3 from "/project3.png";
-import challenger from "/Challenger.png"
+import challenger from "/Challenger.png";
 import turbofan from "/turbofan.png";
-import charts from "/charts.png"
-import SAE from "/SAE.png"
+import charts from "/charts.png";
+import SAE from "/SAE.png";
+import Airbus from "/Airbus.png";
+import Pelargos from "/pelargos.png";
+import CSA from "/CSA.png"
 
 const ProjectCard = ({ image, title, description, link }) => {
   return (
@@ -50,45 +53,66 @@ const ProjectCard = ({ image, title, description, link }) => {
 export default function Projects() {
   const listProjects = [
     {
-      image: project1,
-      title: "Actuator Sizing & Kinematics Toolbox",
+      image: challenger,
+      title: "Challenger 300 Spoiler System Redesign",
       description:
-        "Python-based tool to size actuators and mounts for aircraft flight controls, with safe-trig helpers and plotting.",
+        "System-level redesign of the CL300 spoiler system. Defined requirements and safety objectives (AFHA, SFHA, PSSA, FMEA), sized electro-hydrostatic actuators, modelled cockpit interfaces in CATIA, and validated concepts with wind-tunnel and CFD results.",
+      link: "",
+    },
+    {
+      image: Pelargos,
+      title: "Pelargos-85 Regional Turboprop Conceptual Design",
+      description:
+        "Developed a 9–19-passenger regional turboprop concept. Performed airfoil selection, wing and vertical tail sizing, static stability and performance analyses, engine and propeller selection, and modelling in CATIA.",
+      link: "",
+    },
+    {
+      image: CSA,
+      title: "Capstone — Cold-Gas Thruster Design (CSA Collaboration)",
+      description:
+        "Capstone project in partnership with the Canadian Space Agency to design and test a cold-gas thruster as a building block for a LiDAR-guided lunar payload-alignment platform. Responsibilities include requirements capture, PDR/CDR deliverables, test-stand architecture, and performance modelling.",
+      link: "",
+    },
+    {
+      image: Airbus,
+      title: "Airbus Propulsion — Lessons-Learned Knowledge Tool",
+      description:
+        "Designed and implemented a lessons-learned tool integrated with Google Docs and Sheets using HTML/CSS/JavaScript (Apps Script). Delivered structured intake forms, metadata tagging, search, and automated reporting to improve knowledge capture and reuse across the propulsion team.",
       link: "",
     },
     {
       image: project2,
       title: "A320 Hydraulic System Model",
       description:
-        "Simcenter Amesim simulation of the Green/Yellow/Blue systems with PTU, RAT logic, accumulators, and failure modes.",
+        "Built a Simcenter Amesim model of the A320 hydraulic architecture (Green/Yellow/Blue) with a focus on PTU behavior and RAT deployment logic. Executed transient and what-if studies to assess system robustness.",
       link: "",
     },
     {
       image: charts,
       title: "OJ Trading Platform",
       description:
-        "Community project for Nasdaq futures using ICT strategies. Includes trade journaling, live sessions, and backtesting.",
-      link: "",
-    },
-    {
-      image: challenger,
-      title: "Sales Engineering Dashboards",
-      description:
-        "Range maps, route studies, and competitor comparisons for Bombardier business jets, built with automation tools.",
+        "Co-developed a community platform for Nasdaq futures research using ICT methodologies. Implemented trade journaling, session logging, and lightweight backtesting dashboards to support hypothesis tracking and performance review.",
       link: "",
     },
     {
       image: turbofan,
-      title: "Engine Vibration Analysis",
+      title: "Engine Vibration Analysis — A220 PW1500G",
       description:
-        "PW1500G propulsion monitoring with test-flight vibration data analysis for Airbus A220 program.",
+        "Processed and analyzed flight-test vibration data for the PW1500G on the A220 program. Drafted reports for  diagnosis and to support propulsion reliability monitoring and corrective-action recommendations.",
       link: "",
     },
     {
       image: SAE,
-      title: "SAE Aero Design Aircraft",
+      title: "SAE Aero Design — Competition Aircraft",
       description:
-        "Worked on wing/tail sizing, stability analysis, and control surface design for competition aircraft at Concordia.",
+        "Contributed to preliminary design for a competition UAV. Sized wing and empennage, evaluated stability and control, and defined control-surface geometry to meet payload, performance, and handling-quality constraints.",
+      link: "",
+    },
+    {
+      image: project1,
+      title: "Actuator Sizing & Kinematics Toolbox",
+      description:
+        "Authored a Python tool for flight-control actuator sizing and linkage kinematics. Included safe-trigonometry utilities, parameter sweeps, and plotting routines to accelerate trade studies and design iteration.",
       link: "",
     },
   ];
