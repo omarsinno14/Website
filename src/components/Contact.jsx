@@ -31,7 +31,6 @@ export default function Contact() {
 
     try {
       const res = await emailjs.send(SERVICE_ID, TEMPLATE_ID, params);
-      // EmailJS resolves with { status: 200, text: "OK" } on success
       if (res?.status === 200) {
         alert("Message sent! I’ll get back to you shortly.");
         formEl.reset();
@@ -39,14 +38,11 @@ export default function Contact() {
         throw new Error(`EmailJS unexpected status: ${res?.status || "unknown"}`);
       }
     } catch (err) {
-      // Show the most helpful info possible
-      const msg =
-        err?.text || err?.message || "Failed to send. Please try again.";
+      const msg = err?.text || err?.message || "Failed to send. Please try again.";
       console.error("EmailJS send error:", err);
       alert(
-        "Failed to send. " +
-          "If you just set things up, double-check your Public Key, Template ID, and Allowed Origins.\n\n" +
-          `Details: ${msg}`
+        "Failed to send. If you just set things up, double-check your Public Key, Template ID, and Allowed Origins.\n\n" +
+        `Details: ${msg}`
       );
     }
   };
@@ -58,7 +54,7 @@ export default function Contact() {
       className="min-h-screen overflow-hidden justify-center flex items-center p-6 mt-10 relative"
     >
       <article className="shadow-lg rounded-lg flex flex-col md:flex-row max-w-4xl w-full relative">
-        <aside className="w-full md:w-1/2 relative">
+        <aside className="w-full md:w-1/2 relative flex items-center justify-center md:block">
           <div
             className="absolute z-0 top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-[300px]
             sm:w-[#400px] h-[300px] sm:h-[400px] rounded-full bg-gradient-to-r from-brand-primary via-brand-secondary 
@@ -67,7 +63,7 @@ export default function Contact() {
           <img
             src={imghero}
             alt="Contact illustration"
-            className="h-[250px] sm:h-[400px] md:h-[485px] w-[300px] sm:w-[480px] object-cover rounded-t-lg md:rounded-r-lg relative"
+            className="h-[250px] sm:h-[400px] md:h-[485px] w-[300px] sm:w-[480px] object-cover rounded-t-lg md:rounded-r-lg relative mx-auto md:mx-0"
           />
         </aside>
 
