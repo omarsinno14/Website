@@ -55,7 +55,7 @@ export default function About() {
           </header>
 
           <p className="text-base sm:text-lg md:text-xl text-gray-300 mb-6 sm:mb-8 leading-relaxed">
-            Aerospace engineering student at Concordia. I build practical tools for
+            Aerospace engineering student at Concordia University. I build practical tools for
             flight-control actuators, kinematics, and flight-test data—turning messy
             requirements into clean, reliable software.
           </p>
@@ -94,3 +94,4 @@ export default function About() {
     </section>
   );
 }
+
