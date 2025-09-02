@@ -17,9 +17,9 @@ export default function About() {
         >
           <div
             className="h-[200px] sm:h-[300px] w-[300px] sm:w-[400px] lg:h-[300px] lg:w-[500px] bg-gradient-to-l
-            from-[#6d2897] via-[#6c95f5] to-[#bb61c5] absolute transform rotate-12 z-0 right-5 -top-2
+            from-brand-primary via-brand-secondary to-brand-primary absolute transform rotate-12 z-0 right-5 -top-2
              md:top-10 rounded-full"
-          ></div>
+          />
           <img
             src={img_about1}
             alt="about picture 1"
@@ -45,24 +45,49 @@ export default function About() {
           className="text-center lg:text-left relative"
         >
           <div
-            className="absolute z-0 w-40 h-40 sm:w-60 sm:h-60 bg-[#cd3cf5] rounded-full blur-3xl opacity-50
+            className="absolute z-0 w-40 h-40 sm:w-60 sm:h-60 bg-brand-secondary rounded-full blur-3xl opacity-50
             -top-5 left-10"
-          ></div>
+          />
           <header>
             <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-4 sm:mb-6">
               About Me
             </h1>
           </header>
+
           <p className="text-base sm:text-lg md:text-xl text-gray-300 mb-6 sm:mb-8 leading-relaxed">
-            Esme hassan hsen mehdi ali dam el shi3a byeghle ghali
+            Aerospace engineering student at Concordia. I build practical tools for
+            flight-control actuators, kinematics, and flight-test data—turning messy
+            requirements into clean, reliable software.
           </p>
-          <footer>
-            <button
+
+          <div className="grid sm:grid-cols-2 gap-4 text-gray-300">
+            <div className="space-y-2">
+              <h3 className="text-white font-semibold">Recent Experience</h3>
+              <ul className="space-y-1">
+                <li>• Bombardier — Advanced Product Development (Intern)</li>
+                <li>• Bombardier — Sales Engineering (Intern)</li>
+                <li>• Airbus A220 — Propulsion / PW1500G (Intern)</li>
+                <li>• Bell Textron — Certification (Intern)</li>
+                <li>• Space Concordia • SAE Aero — Systems</li>
+                <li>• Middle East Airlines — AME Support</li>
+              </ul>
+            </div>
+
+            {/* Tech & Tools moved to Skills.jsx */}
+          </div>
+
+          <p className="mt-6 text-sm text-gray-400">
+            Interests: aviation, engineering automation, investing, basketball.
+          </p>
+
+          <footer className="mt-6">
+            <a
+              href="#contact"
               className="inline-flex text-white border-2 py-2 px-4 sm:px-6 focus:outline-none
-                hover:bg-[#801b9c] hover:shadow-[0_0_40px_rgba(128,0,128,0.7)] rounded-full text-sm sm:text-lg"
+                hover:bg-brand-secondary hover:shadow-[0_0_40px_rgba(147,51,234,0.7)] rounded-full text-sm sm:text-lg"
             >
-              Learn More
-            </button>
+              Let’s work together
+            </a>
           </footer>
         </article>
       </div>

@@ -1,12 +1,17 @@
-import React from 'react'
+import React from "react";
 
 export default function Footer() {
+  const year = new Date().getFullYear();
+
   return (
-    <footer className='bg-gradient-to-r from-purple-700 to-blue-700 text-white py-5'>
-        <div className='container mx-auto flex flex-col md:flex-row justify-between items-center'>
-            <h1 className='text-3xl font-bold italic mb-4 md:mb-0'>Portfolio</h1>
-            <p className='text-sm text-center md:text-left'>2024 My Website.All right reserved </p>
-        </div>
+    <footer className="bg-gradient-to-r from-brand-primary to-brand-secondary text-white">
+      <div className="container mx-auto px-4 py-5 flex flex-col md:flex-row items-center justify-between">
+        <h1 className="text-3xl font-bold italic mb-3 md:mb-0">Portfolio</h1>
+
+        <p className="text-sm text-white/90 text-center md:text-left">
+          © {year} My Website. All rights reserved.
+        </p>
+      </div>
     </footer>
-  )
+  );
 }
