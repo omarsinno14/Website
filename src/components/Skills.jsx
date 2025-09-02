@@ -4,7 +4,7 @@ import vue from "/vue.png";
 import icon_react from "/icon_react.png";
 import tailwindcss from "/tailwindcss.png";
 import laravel from "/laravel.png";
-import imghero from "/imghero.png";
+import img_about2 from "/img_about2.png";
 import interpersonal from "/interpersonal.png";
 import languages from "/languages.png";
 import cert from "/cert.png";
@@ -106,7 +106,7 @@ export default function Skills() {
     >
       <div className="absolute z-0 w-64 h-32 sm:w-80 sm:h-36 bg-brand-secondary rounded-full blur-3xl opacity-50 top-10 sm:top-28 left-1/2 transform -translate-x-1/2" />
       <img
-        src={imghero}
+        src={img_about2}
         alt="Left picture"
         className="absolute z-10 left-2 top-2 sm:left-16 sm:top-32 transform -rotate-12 w-20 h-auto sm:w-28 opacity-70"
       />
@@ -134,7 +134,7 @@ export default function Skills() {
       </div>
 
       <img
-        src={imghero}
+        src={img_about2}
         alt="Right picture"
         className="absolute z-10 right-2 top-2 sm:right-16 sm:top-32 transform rotate-12 w-20 h-auto sm:w-28 opacity-70"
       />
