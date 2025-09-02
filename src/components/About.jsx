@@ -7,7 +7,7 @@ export default function About() {
   return (
     <section
       id="about"
-      className="min-h-screen overflow-hidden flex items-center justify-center text-white px-4 sm:px-6"
+      className="min-h-screen overflow-visible sm:overflow-hidden flex items-start sm:items-center justify-center text-white px-4 sm:px-6 py-12 sm:py-0"
     >
       <div className="max-w-6xl w-full grid grid-cols-1 lg:grid-cols-2 gap-8 sm:gap-12 items-center">
         <figure
@@ -23,7 +23,7 @@ export default function About() {
           <img
             src={img_about1}
             alt="about picture 1"
-            className="absolute -top-2 left-5 sm:left-10 transform -translate-y-12 z-20 w-24 h-24 sm:w-32 sm:h-32
+            className="absolute -top-2 left-5 sm:left-10 transform -translate-y-6 sm:-translate-y-12 z-20 w-24 h-24 sm:w-32 sm:h-32
              rounded-3xl shadow-lg"
           />
           <img
@@ -34,7 +34,7 @@ export default function About() {
           <img
             src={img_about}
             alt="about picture "
-            className="absolute bottom-0 right-5 sm:right-10 transform translate-y-12 z-10 w-20 h-20 sm:w-32
+            className="absolute bottom-0 right-5 sm:right-10 transform translate-y-6 sm:translate-y-12 z-10 w-20 h-20 sm:w-32
              sm:h-32 rounded-3xl shadow-lg"
           />
         </figure>
