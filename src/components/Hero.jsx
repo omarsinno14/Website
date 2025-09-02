@@ -25,15 +25,19 @@ export default function Hero() {
           data-aos="fade-up"
           data-aos-delay="500"
         >
-          <div className="absolute -z-10 w-60 h-60 bg-brand-secondary rounded-full blur-3xl opacity-50 -top-5 -left-12"></div>
+          {/* CHANGED: hide the green glow on mobile to avoid overlap */}
+          <div className="hidden sm:block absolute -z-10 w-60 h-60 bg-brand-secondary rounded-full blur-3xl opacity-50 -top-5 -left-12"></div>
+
           <header>
             <h1 className="text-4xl sm:text-4xl md:text-5xl font-bold text-white mb-4">
               Omar Sinno
             </h1>
-            <h2 className="text-xl sm:text-4xl md:text-2xl font-bold text-brand-secondary mb-2">
+            {/* CHANGED: white on mobile, brand-secondary on sm+ */}
+            <h2 className="text-xl sm:text-4xl md:text-2xl font-bold text-white sm:text-brand-secondary mb-2">
               Aerospace Engineering Student • Aircraft Design, Systems & Software
             </h2>
           </header>
+
           <p className="text-base sm:text-lg md:text-lg text-gray-200 mb-6">
             Final-year at Concordia. I design aircraft concepts, capture and draft
             requirements, and run analyses (aero, structures, propulsion). I also
@@ -56,18 +60,10 @@ export default function Hero() {
             >
               <img src={linkedin} alt="Linkedin" className="w-11 h-11" />
             </a>
-            <a
-              href="#"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
+            <a href="#" target="_blank" rel="noopener noreferrer">
               <img src={facebook} alt="facebook" className="w-11 h-11" />
             </a>
-            <a
-              href="#"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
+            <a href="#" target="_blank" rel="noopener noreferrer">
               <img src={instagram} alt="instagram" className="w-11 h-11" />
             </a>
           </div>
@@ -80,6 +76,7 @@ export default function Hero() {
             </button>
           </a>
         </section>
+
         <figure
           data-aos="fade-up"
           data-aos-delay="500"
