@@ -39,8 +39,8 @@ export default function Hero() {
           </header>
 
           <p className="text-base sm:text-lg md:text-lg text-gray-200 mb-6">
-            Final-year at Concordia. I design aircraft concepts, capture and draft
-            requirements, and run analyses (aero, structures, propulsion). I also
+            Final-year student at Concordia University. I design aircraft concepts, capture and draft
+            requirements, and run analyses. I also
             build tools for flight-controls and automation—turning complex problems
             into clear, reliable solutions. Experience with Bombardier, Airbus, and
             Bell Textron.
@@ -92,3 +92,4 @@ export default function Hero() {
     </div>
   );
 }
+
