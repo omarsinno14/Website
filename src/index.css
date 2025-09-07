@@ -4,3 +4,17 @@
 html{
     scroll-behavior: smooth;
 }
+
+html, body {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+  overscroll-behavior-x: none;
+}
+
+/* Optional: make media truly fluid */
+img, video, canvas, svg {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
