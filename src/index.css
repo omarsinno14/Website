@@ -1,9 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-html{
-    scroll-behavior: smooth;
-}
+
+html { scroll-behavior: smooth; }
 
 html, body {
   width: 100%;
@@ -17,4 +16,56 @@ img, video, canvas, svg {
   max-width: 100%;
   height: auto;
   display: block;
+}
+
+/* Dark-only palettes. Set <html data-theme="ocean"> in index.html to avoid FOUC. */
+:root { color-scheme: dark; }
+
+/* Ocean */
+:root[data-theme="ocean"] {
+  --bg: 222 47% 5%;
+  --fg: 210 40% 98%;
+  --muted: 217 27% 15%;
+  --card: 222 47% 7%;
+  --border: 217 19% 27%;
+  --primary: 191 94% 42%;
+  --secondary: 142 70% 40%;
+  --accent: 199 92% 48%;
+}
+
+/* Sunset */
+:root[data-theme="sunset"] {
+  --bg: 24 30% 7%;
+  --fg: 20 10% 96%;
+  --muted: 24 20% 15%;
+  --card: 24 20% 9%;
+  --border: 24 15% 25%;
+  --primary: 10 90% 55%;
+  --secondary: 330 80% 62%;
+  --accent: 45 93% 50%;
+}
+
+/* Royal */
+:root[data-theme="royal"] {
+  --bg: 250 25% 9%;
+  --fg: 210 40% 98%;
+  --muted: 250 20% 16%;
+  --card: 250 20% 11%;
+  --border: 250 15% 25%;
+  --primary: 262 83% 60%;
+  --secondary: 221 83% 56%;
+  --accent: 292 84% 63%;
+}
+
+/* Base hooks for tokens */
+@layer base {
+  body { @apply bg-bg text-fg antialiased; }
+}
+
+@layer components {
+  .card { @apply bg-card text-fg border border-border rounded-xl2 shadow-soft; }
+  .btn { @apply inline-flex items-center gap-2 rounded-xl2 px-4 py-2 border border-border hover:opacity-90 transition; }
+  .btn-primary { @apply bg-brand-primary text-white; }
+  .btn-secondary { @apply bg-brand-secondary text-white; }
+  .chip { @apply inline-flex items-center px-2 py-1 rounded-full bg-muted text-sm; }
 }
