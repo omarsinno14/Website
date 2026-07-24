@@ -1,0 +1,810 @@
+I want you to fully upgrade and modernize my existing personal portfolio website.
+
+Everything already exists. Do not create a completely unrelated website from scratch. First inspect the entire current project, understand its structure, design system, content, routing, components, assets, deployment configuration, and current visual identity. Then improve it carefully into a polished, premium, trustworthy personal website.
+
+The final website should feel:
+
+* Clean
+* Premium
+* Modern
+* Confident
+* Trustworthy
+* Technically credible
+* Personal without being informal
+* Visually impressive without being overdesigned
+* Easy to scan
+* Fast and responsive
+* Appropriate for recruiters, engineering leaders, executives, clients, and professional contacts
+
+Avoid making it feel like:
+
+* A generic portfolio template
+* A flashy startup landing page
+* A gaming website
+* An AI-generated design
+* A cluttered résumé page
+* An overanimated creative-agency website
+* A website filled with unnecessary cards, gradients, icons, badges, or effects
+
+The site should look intentional, mature, restrained, and high quality.
+
+# PRIMARY OBJECTIVE
+
+Upgrade the existing site so that it accurately reflects my latest CV, current professional experience, technical background, achievements, projects, and professional direction.
+
+Use the most recent CV available in the project as the primary source of truth.
+
+Search the repository for files such as:
+
+* CV
+* Resume
+* résumé
+* PDF
+* DOCX
+* Markdown biography
+* About page content
+* Experience data
+* Project data
+* JSON content
+* Existing résumé components
+
+Also inspect all existing website content before editing.
+
+Do not invent:
+
+* Employers
+* Job titles
+* Dates
+* Skills
+* Responsibilities
+* Education
+* Certifications
+* Metrics
+* Achievements
+* Awards
+* Project results
+* Testimonials
+
+If the current website and CV conflict, use the latest CV unless another project file is clearly newer.
+
+If some information is missing or ambiguous, preserve the strongest truthful version already present and report the ambiguity at the end rather than inventing details.
+
+# PHASE 1 — AUDIT BEFORE CHANGING ANYTHING
+
+Inspect the complete project.
+
+Review at minimum:
+
+* package.json
+* framework and runtime
+* routing
+* page structure
+* component structure
+* global styles
+* Tailwind configuration if present
+* typography
+* color palette
+* spacing system
+* icons
+* images
+* public assets
+* current résumé or CV
+* current About content
+* current Experience content
+* current Projects content
+* contact links
+* social links
+* SEO metadata
+* mobile responsiveness
+* accessibility
+* performance
+* deployment configuration
+* console warnings
+* broken links
+* unused components
+* duplicated styles
+* placeholder content
+* outdated content
+* inconsistent wording
+
+Determine internally:
+
+1. What should remain
+2. What needs refinement
+3. What is outdated
+4. What is redundant
+5. What feels generic
+6. What harms credibility
+7. What is visually inconsistent
+8. What is technically unnecessary
+9. Which information from the latest CV is missing
+10. Whether the current architecture can be improved without a rewrite
+
+Do not begin by replacing the homepage.
+
+Do not destroy working functionality.
+
+Make the smallest coherent set of changes that produces a major quality improvement.
+
+# POSITIONING
+
+The website should position me as a serious engineering professional with strong technical experience, business awareness, and the ability to work across complex projects and organizations.
+
+The tone should communicate:
+
+* Technical competence
+* Reliability
+* Clear thinking
+* Professional growth
+* Real industry experience
+* Leadership potential
+* Strong communication
+* Curiosity
+* Practical problem-solving
+* Attention to quality
+
+The writing must not sound arrogant, exaggerated, or filled with empty corporate language.
+
+Avoid vague phrases such as:
+
+* Passionate professional
+* Results-driven individual
+* Innovative thinker
+* Dynamic leader
+* Hardworking team player
+* Proven track record
+
+Replace generic claims with specific, factual, concise descriptions drawn from the CV.
+
+# VISUAL DIRECTION
+
+Create a refined and consistent visual system.
+
+The design should use:
+
+* Generous white space
+* Strong typography
+* Clear visual hierarchy
+* Restrained use of color
+* Consistent section spacing
+* High-quality alignment
+* Clean grid structure
+* Subtle depth where appropriate
+* Simple and purposeful motion
+* Strong contrast
+* Premium responsive behavior
+
+Preferred overall aesthetic:
+
+* Modern engineering
+* Editorial precision
+* Quiet confidence
+* High-end professional portfolio
+* Minimal but not empty
+* Technical but human
+* Premium without looking luxurious for the sake of luxury
+
+Use a restrained palette.
+
+A strong direction would be:
+
+* Warm white or soft neutral background
+* Deep charcoal or near-black text
+* One sophisticated accent color
+* Subtle grey borders
+* Very limited gradients
+* No excessive glassmorphism
+* No glowing elements
+* No giant colored blobs
+* No neon
+* No excessive shadows
+
+If the current brand palette is already strong, refine it rather than replacing it unnecessarily.
+
+# TYPOGRAPHY
+
+Use a clean, highly readable typography system.
+
+Requirements:
+
+* One primary sans-serif typeface
+* Optional secondary display typeface only if it adds real value
+* Clear heading hierarchy
+* Comfortable body text
+* Consistent line height
+* Restrained font weights
+* No excessive all-caps text
+* No tiny body copy
+* No overly wide paragraphs
+* No decorative typography that harms professionalism
+
+The typography should feel similar in quality to respected engineering, architecture, technology, and consulting websites.
+
+# HOMEPAGE
+
+Upgrade the homepage into a concise and compelling professional introduction.
+
+The homepage should quickly answer:
+
+1. Who am I?
+2. What do I do?
+3. What experience do I bring?
+4. What kinds of problems or projects have I worked on?
+5. Why should someone continue exploring the site?
+6. How can they contact me or view my CV?
+
+The hero section should be clean and confident.
+
+It should include:
+
+* My name
+* My current professional positioning
+* A concise one- or two-sentence introduction
+* A primary action such as View Experience or Explore Work
+* A secondary action such as Download CV or Contact
+* Optional professional portrait only if a high-quality image already exists
+
+Do not use:
+
+* Rotating job titles
+* Typewriter text
+* Excessive animated words
+* Large blocks of biography
+* Fake statistics
+* Generic slogans
+* Giant decorative illustrations
+* Multiple competing buttons
+
+The hero should feel immediately credible.
+
+# ABOUT SECTION
+
+Rewrite and restructure the About content using the latest CV and existing accurate information.
+
+The About section should:
+
+* Be concise
+* Explain my professional background
+* Show what I care about professionally
+* Connect my experience into one clear narrative
+* Sound human and thoughtful
+* Avoid repeating the Experience section
+* Avoid sounding like a cover letter
+* Avoid excessive personal information
+
+Use two or three short paragraphs maximum, unless the current site has a separate detailed About page.
+
+Include only meaningful personal context that strengthens the professional story.
+
+# EXPERIENCE SECTION
+
+Update all work experience using the latest CV.
+
+For each role, present:
+
+* Company
+* Job title
+* Location when relevant
+* Dates
+* Concise description of responsibility and scope
+* Two to four strong impact-focused points where supported by the CV
+* Relevant technologies, systems, products, programs, or domains when truthful
+
+Make the timeline easy to scan.
+
+Do not simply copy long CV bullet lists.
+
+Rewrite for the web while preserving accuracy.
+
+Prioritize:
+
+* Scope
+* Complexity
+* Responsibility
+* Collaboration
+* Technical contribution
+* Business or operational impact
+* Growth across roles
+
+Use consistent date formatting.
+
+Do not display every minor task.
+
+# EDUCATION SECTION
+
+Update education from the latest CV.
+
+Present it clearly and simply:
+
+* Institution
+* Degree
+* Field
+* Relevant dates
+* Relevant academic focus only when it adds value
+* Selected academic project only if important to my professional positioning
+
+Do not overload this section with basic coursework.
+
+# PROJECTS SECTION
+
+Audit all projects currently shown.
+
+Keep only projects that strengthen the website.
+
+Projects should demonstrate one or more of:
+
+* Engineering depth
+* System thinking
+* Product thinking
+* Business development
+* Leadership
+* Technical problem-solving
+* Design and implementation
+* Complex research
+* Entrepreneurship
+
+For every retained project, create a consistent case-study format:
+
+* Project name
+* Short description
+* My role
+* Problem or opportunity
+* What I did
+* Key result or output
+* Relevant tools or skills
+* Link when available
+
+Do not invent project results.
+
+Remove weak, unfinished, outdated, duplicated, student-level, or irrelevant projects when they reduce the overall quality of the portfolio.
+
+If a project is impressive but lacks enough information, present it concisely rather than filling it with invented details.
+
+# SKILLS SECTION
+
+Do not create a huge wall of skill badges.
+
+Organize skills into a small number of meaningful groups, based on the CV and actual site content.
+
+Possible groups include:
+
+* Engineering and technical domains
+* Systems and integration
+* Software and tools
+* Project and business capabilities
+* Languages
+
+Only include skills that are genuinely supported.
+
+Avoid:
+
+* Progress bars
+* Percentage ratings
+* Five-star ratings
+* Dozens of colorful pills
+* Generic skills such as Microsoft Office unless specifically relevant
+* Repeating the same skills in several sections
+
+Use clean text, compact groups, or a restrained grid.
+
+# CV EXPERIENCE
+
+Add or improve a visible CV action.
+
+Requirements:
+
+* Clear Download CV button
+* Correct latest CV file
+* Useful filename
+* Opens or downloads reliably
+* Accessible label
+* Works on desktop and mobile
+
+If the CV in the repository is outdated, replace the site’s CV reference with the newest available version.
+
+Do not expose multiple conflicting CV versions.
+
+# CONTACT SECTION
+
+Make the Contact section professional and low-friction.
+
+Include only verified contact methods already available in the project or CV, such as:
+
+* Email
+* LinkedIn
+* GitHub
+* Professional social profile
+* Contact form
+
+Do not invent contact information.
+
+If a contact form already exists:
+
+* Verify it works
+* Add validation
+* Add clear success and error states
+* Prevent duplicate submissions
+* Make labels accessible
+* Ensure mobile usability
+* Do not expose private API keys
+
+If the form is nonfunctional and no backend is configured, either implement it properly using the existing architecture or remove it in favor of a reliable email action.
+
+# NAVIGATION
+
+Simplify navigation.
+
+Recommended items:
+
+* Home
+* About
+* Experience
+* Work or Projects
+* Contact
+* CV
+
+Use fewer items when appropriate.
+
+Navigation requirements:
+
+* Sticky only if it improves usability
+* Clear active state
+* Smooth but restrained behavior
+* Mobile menu that works reliably
+* Keyboard accessible
+* No unnecessary dropdowns
+* No hidden critical links
+* No oversized navigation bar
+
+# FOOTER
+
+Create a small, polished footer.
+
+Include:
+
+* Name
+* Short professional descriptor if useful
+* Verified contact or professional links
+* Copyright
+* Optional location only if already public
+* No large repeat navigation
+* No unnecessary newsletter form
+* No meaningless slogan
+
+# MOTION AND INTERACTION
+
+Use motion sparingly.
+
+Acceptable:
+
+* Subtle fade and rise on initial section entry
+* Smooth hover transitions
+* Refined button movement
+* Gentle image scaling
+* Simple navigation transitions
+
+Avoid:
+
+* Constant moving backgrounds
+* Parallax overload
+* Cursor effects
+* Magnetic buttons
+* Animated gradients
+* Excessive page transitions
+* Rotating 3D objects
+* Scroll-jacking
+* Long loading animations
+* Motion that slows down navigation
+
+Respect `prefers-reduced-motion`.
+
+The site should remain impressive when all animation is disabled.
+
+# IMAGES AND VISUAL ASSETS
+
+Audit all images.
+
+Remove:
+
+* Low-quality images
+* Generic stock photos
+* Pixelated logos
+* Inconsistent aspect ratios
+* Decorative images with no purpose
+* Placeholder graphics
+
+Optimize retained images:
+
+* Correct dimensions
+* Modern file formats where appropriate
+* Responsive loading
+* Useful alt text
+* Lazy loading below the fold
+* No layout shift
+
+If professional employer logos are already used, present them consistently and subtly.
+
+Do not generate fake company imagery.
+
+# CONTENT EDITING
+
+Rewrite the site copy throughout.
+
+Requirements:
+
+* Clear
+* Direct
+* Professional
+* Specific
+* Natural
+* Concise
+* Free of spelling and grammar errors
+* Consistent first-person voice
+* Consistent tense
+* Consistent punctuation
+* Consistent capitalization
+
+Avoid long paragraphs.
+
+Use headings that say something meaningful rather than generic labels when appropriate.
+
+Do not overuse:
+
+* Expertise
+* Innovative
+* Passion
+* Cutting-edge
+* Excellence
+* Journey
+* Visionary
+* Disruptive
+* World-class
+
+Do not make the copy sound like it was generated by AI.
+
+# MOBILE RESPONSIVENESS
+
+The website must be excellent on:
+
+* Small mobile devices
+* Standard phones
+* Tablets
+* Laptops
+* Large desktop displays
+
+Test:
+
+* Navigation
+* Hero spacing
+* Typography
+* Project cards
+* Experience timeline
+* Buttons
+* CV download
+* Contact actions
+* Footer
+* Landscape orientation
+* Long names or titles
+* Image cropping
+
+Avoid desktop designs that merely shrink on mobile.
+
+# ACCESSIBILITY
+
+Improve accessibility throughout.
+
+Requirements:
+
+* Semantic HTML
+* Proper heading order
+* Keyboard navigation
+* Visible focus states
+* Adequate contrast
+* Form labels
+* Button labels
+* Descriptive links
+* Accessible mobile menu
+* Alt text
+* Reduced motion support
+* No important information conveyed by color alone
+* Minimum reasonable touch target sizes
+
+Target strong Lighthouse accessibility results.
+
+# SEO AND PROFESSIONAL DISCOVERABILITY
+
+Update SEO metadata using verified information from the CV and website.
+
+Implement or improve:
+
+* Page title
+* Meta description
+* Canonical URL if known
+* Open Graph title
+* Open Graph description
+* Open Graph image if a suitable asset exists
+* Twitter card metadata
+* Favicon
+* Structured data for a Person where appropriate
+* Descriptive page headings
+* Clean route names
+* Sitemap if the architecture supports it
+* Robots metadata
+* Social preview quality
+
+Do not expose private information.
+
+Do not keyword-stuff.
+
+# PERFORMANCE
+
+Audit and improve performance without breaking functionality.
+
+Check:
+
+* Bundle size
+* Unused dependencies
+* Large images
+* Font loading
+* Layout shifts
+* Render-blocking assets
+* Unnecessary client-side libraries
+* Excessive JavaScript
+* Duplicate components
+* Unused CSS
+* Large animation libraries
+* Slow API calls
+* Console errors
+
+Use code splitting only where it is useful.
+
+Do not add a heavy library for a small visual effect.
+
+Target:
+
+* Fast initial load
+* Smooth mobile performance
+* No major layout shift
+* No broken assets
+* No console errors
+* Strong Lighthouse scores
+
+# CODE QUALITY
+
+Refactor only where it improves clarity and maintainability.
+
+Requirements:
+
+* Reuse components appropriately
+* Remove dead code
+* Remove unused imports
+* Remove unused assets
+* Remove duplicate styles
+* Fix TypeScript issues
+* Fix React warnings
+* Use consistent naming
+* Keep components reasonably sized
+* Preserve clear separation between content and presentation where practical
+* Avoid unnecessary abstraction
+* Avoid rewriting the entire codebase without reason
+
+If content is currently hardcoded across many components, consider moving it into a clean structured data file so future updates are easier.
+
+Do not introduce a CMS unless one already exists or it is clearly justified.
+
+# TRUST AND CREDIBILITY
+
+The site must feel credible.
+
+Do not use:
+
+* Fake testimonials
+* Fake client logos
+* Fake statistics
+* Fake counters
+* Fake awards
+* Fake endorsements
+* Fake availability messages
+* “Trusted by” sections without evidence
+* Inflated project claims
+
+Use real experience, clear writing, visual discipline, and accurate details to establish trust.
+
+# DO NOT OVERSTUFF THE WEBSITE
+
+A major requirement is restraint.
+
+Do not add sections simply because modern templates usually have them.
+
+Every section must serve a clear purpose.
+
+Prefer:
+
+* Fewer stronger projects
+* Fewer stronger sentences
+* Fewer stronger visual elements
+* Clear hierarchy
+* More space
+* Better typography
+* Better editing
+
+Remove anything that does not improve credibility, understanding, or usability.
+
+# TECHNICAL VALIDATION
+
+After implementation, run all relevant commands.
+
+At minimum:
+
+* Install dependencies using the existing package manager
+* Run linting if configured
+* Run TypeScript checks if configured
+* Run tests if configured
+* Run the production build
+* Start the production preview when possible
+
+Check for:
+
+* Build failures
+* Type errors
+* Missing assets
+* Broken routes
+* Broken links
+* Console errors
+* Hydration errors
+* Mobile navigation issues
+* CV download failure
+* Contact form failure
+* SEO metadata errors
+* Accessibility issues
+
+Do not claim completion until the production build succeeds.
+
+# PROTECT EXISTING DEPLOYMENT
+
+Do not break the current hosting or deployment setup.
+
+Inspect:
+
+* Vercel configuration
+* Replit configuration
+* Environment variables
+* Build command
+* Output directory
+* Routing rewrites
+* API routes
+* Public asset paths
+
+Preserve the existing deployment architecture unless a change is clearly required.
+
+Do not modify secrets.
+
+Do not expose environment variables in frontend code.
+
+# FINAL DELIVERABLE
+
+After completing the upgrade, provide a clear report with:
+
+1. Summary of the previous site’s main weaknesses
+2. Overall design direction chosen
+3. Content updated from the latest CV
+4. Sections removed, merged, or added
+5. Every major visual improvement
+6. Every major content improvement
+7. Every file changed
+8. Any files removed
+9. Any new components created
+10. Accessibility improvements
+11. SEO improvements
+12. Performance improvements
+13. Build and test results
+14. Remaining warnings
+15. Any information from the CV that could not be confirmed
+16. Any links, contact details, or assets I should manually review
+17. Exact deployment steps if required
+
+Do not stop after making the homepage look better.
+
+Audit and upgrade the entire website as one coherent professional product.
+
+The final result should feel like the website of a high-potential engineering professional with real industry experience: clean, intelligent, premium, current, reliable, and memorable without trying too hard.
