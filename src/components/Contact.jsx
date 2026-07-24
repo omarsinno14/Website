@@ -51,7 +51,7 @@ export default function Contact() {
     <section
       data-aos="fade-up"
       data-aos-delay="300"
-      className="min-h-screen overflow-hidden justify-center flex items-center p-6 mt-10 relative"
+      className="flex justify-center px-4 py-24 sm:py-32 relative"
     >
       <article className="shadow-lg rounded-lg flex flex-col md:flex-row max-w-4xl w-full relative">
         <aside className="w-full md:w-1/2 relative flex items-center justify-center md:block">

@@ -124,7 +124,7 @@ const projects = [
 
 export default function Projects() {
   return (
-    <section className="px-4 py-16" id="projects">
+    <section className="px-4 py-24 sm:py-32" id="projects">
       <div data-aos="fade-up" data-aos-delay="300" className="max-w-6xl mx-auto">
         <header className="text-center mb-10">
           <h2 className="text-3xl text-white sm:text-4xl font-bold">

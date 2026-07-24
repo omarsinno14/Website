@@ -7,7 +7,7 @@ import OmarCV from "/Omar.pdf";
 
 export default function Hero() {
   return (
-    <div className="relative overflow-hidden min-h-[550px] sm:min-h-[600px] flex flex-col items-center">
+    <div className="relative overflow-hidden flex flex-col items-center pb-8">
       <div
         className="md:h-[550px] h-[500px] w-[450px] bg-gradient-to-r absolute from-brand-primary via-brand-secondary
         to-brand-primary transform rotate-45 z-0 right-2 top-28 rounded-3xl"

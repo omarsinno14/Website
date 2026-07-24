@@ -6,7 +6,7 @@ export default function About() {
   return (
     <section
       id="about"
-      className="min-h-screen overflow-visible sm:overflow-hidden flex items-start sm:items-center justify-center text-white px-4 sm:px-6 py-16 sm:py-0"
+      className="text-white px-4 sm:px-6 py-24 sm:py-32 flex justify-center"
     >
       <div className="max-w-6xl w-full grid grid-cols-1 lg:grid-cols-2 gap-10 sm:gap-16 items-center">
         <figure

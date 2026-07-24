@@ -104,7 +104,7 @@ export default function Skills() {
   return (
     <section
       id="skills"
-      className="relative overflow-hidden flex flex-col items-center justify-center text-white px-4 py-16"
+      className="relative overflow-hidden flex flex-col items-center text-white px-4 py-24 sm:py-32"
     >
       <div className="absolute z-0 w-64 h-32 sm:w-80 sm:h-36 bg-brand-secondary rounded-full blur-3xl opacity-40 top-10 left-1/2 transform -translate-x-1/2" />
 
