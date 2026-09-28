@@ -14,17 +14,18 @@ export default function About() {
         </header>
 
         <p className="text-base sm:text-lg text-gray-300 mb-5 leading-relaxed">
-          I'm an aerospace engineer based in Montreal. I completed my Bachelor of Engineering
-          in Aerospace Engineering at Concordia University and have worked across propulsion,
-          flight controls, certification, and avionics through co-op terms at Airbus, Bombardier,
-          and Bell Textron.
+          I&apos;m an aerospace engineer based in Montreal. I completed my BEng in Aerospace
+          Engineering at Concordia University and am now pursuing an MEng in Aerospace
+          Engineering there, focused on autonomous systems, machine learning, and
+          artificial intelligence. My experience spans propulsion, aircraft integration,
+          certification, and avionics at Airbus, Bombardier, and Bell Textron.
         </p>
 
         <p className="text-base sm:text-lg text-gray-300 mb-12 leading-relaxed">
-          Currently at Airbus on the A220 program as an Avionics Integration Engineering
-          Professional, I lead new development for secondary avionics systems, including
-          Radio Altimeter integration. I coordinate with suppliers, define requirements,
-          manage V&V, and support certification activities with Transport Canada.
+          At Airbus, I am an Avionics Integration Engineering Professional responsible for
+          Cockpit Control Panels, the Radio Altimeter, and the Maintenance Panel on the A220.
+          I also lead selected developments within the secondary avionics team, including
+          V&amp;V, supplier steering, and certification activities.
         </p>
 
         <div id="experience" className="grid sm:grid-cols-2 gap-8 text-sm">
@@ -37,7 +38,7 @@ export default function About() {
               </li>
               <li className="flex flex-col">
                 <span className="text-white font-medium">Bombardier, Dorval</span>
-                <span className="text-gray-400">Advanced Product Development · Flight Controls</span>
+                <span className="text-gray-400">Advanced Product Development · Aircraft Level Integration</span>
               </li>
               <li className="flex flex-col">
                 <span className="text-white font-medium">Bombardier, Dorval</span>
@@ -63,7 +64,12 @@ export default function About() {
             <ul className="space-y-4">
               <li className="flex flex-col">
                 <span className="text-white font-medium">Concordia University</span>
-                <span className="text-gray-400">BEng Aerospace Engineering · Dean's List</span>
+                <span className="text-gray-400">MEng Aerospace Engineering · In progress</span>
+                <span className="text-gray-400">Focus on autonomous systems, machine learning, and artificial intelligence</span>
+              </li>
+              <li className="flex flex-col">
+                <span className="text-white font-medium">Concordia University</span>
+                <span className="text-gray-400">BEng Aerospace Engineering · Completed · Dean&apos;s List</span>
               </li>
               <li className="flex flex-col">
                 <span className="text-white font-medium">College Louise Wegmann</span>

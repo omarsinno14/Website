@@ -77,7 +77,7 @@ const categories = [
 ];
 
 const SkillBox = ({ title, groups }) => (
-  <article className="bg-gray-800 p-4 sm:p-5 rounded-lg shadow-md hover:bg-brand-secondary/10 transition-colors duration-150">
+  <article className="bg-card border border-border p-4 sm:p-5 rounded-lg hover:bg-brand-secondary/10 transition-colors duration-150">
     <header>
       <h3 className="text-sm sm:text-base font-semibold mb-3 text-brand-secondary">{title}</h3>
     </header>
@@ -110,9 +110,7 @@ export default function Skills() {
 
       <div data-aos="fade-up" data-aos-delay="300" className="relative z-20 w-full max-w-6xl space-y-8">
         <header className="text-center">
-          <h2 className="text-3xl sm:text-4xl font-bold">
-            Skills <span className="text-brand-secondary">and Expertise</span>
-          </h2>
+          <h2 className="text-3xl sm:text-4xl font-bold">Skills</h2>
           <p className="text-gray-400 mt-3 text-sm max-w-xl mx-auto">
             Aerospace systems engineering, avionics integration, and software tooling across
             major commercial and regional aircraft programs.

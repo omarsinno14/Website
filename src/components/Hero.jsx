@@ -7,21 +7,19 @@ import OmarCV from "/Omar.pdf";
 
 export default function Hero() {
   return (
-    <div className="relative overflow-hidden flex flex-col items-center pb-8">
+    <div className="relative isolate overflow-hidden flex flex-col items-center pb-8">
       <div
         className="md:h-[550px] h-[500px] w-[450px] bg-gradient-to-r absolute from-brand-primary via-brand-secondary
-        to-brand-primary transform rotate-45 z-0 right-2 top-28 rounded-3xl"
+        to-brand-primary transform rotate-45 -z-10 right-2 top-28 rounded-3xl opacity-60"
       />
       <Navbar />
       <main
         id="home"
-        className="flex flex-col md:flex-row items-center justify-center w-full px-4
+        className="relative flex flex-col md:flex-row items-center justify-center w-full px-4
         md:px-52 pb-4 md:pb-24 md:pt-32 pt-24 mt-14 md:mt-0 z-10"
       >
         <section
           className="flex-1 mr-0 md:mr-28 md:text-left mt-10 md:mt-0 relative"
-          data-aos="fade-up"
-          data-aos-delay="300"
         >
           <div className="hidden sm:block absolute -z-10 w-60 h-60 bg-brand-secondary rounded-full blur-3xl opacity-50 -top-5 -left-12" />
 
@@ -35,9 +33,9 @@ export default function Hero() {
           </header>
 
           <p className="text-base sm:text-lg text-gray-200 mb-6 leading-relaxed max-w-lg">
-            Aerospace engineer based in Montreal. Currently at Airbus on the A220 program,
-            leading secondary avionics development, V&V, supplier coordination, and certification.
-            BEng Aerospace Engineering, Concordia University. Industry experience at Airbus, Bombardier, and Bell Textron.
+            At Airbus on the A220, I am responsible for Cockpit Control Panels, the Radio Altimeter,
+            and the Maintenance Panel. I also lead selected developments within the secondary avionics
+            team, covering V&amp;V, supplier steering, and certification.
           </p>
 
           <div className="flex items-center space-x-4 mb-6">
@@ -74,8 +72,6 @@ export default function Hero() {
         </section>
 
         <figure
-          data-aos="fade-up"
-          data-aos-delay="500"
           className="flex-1 flex justify-center md:justify-end mt-8 md:mt-0"
         >
           <img

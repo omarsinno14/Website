@@ -11,7 +11,7 @@ import project2 from "/project2.png";
 
 const ProjectCard = ({ image, title, description, tags, link }) => {
   return (
-    <article className="relative max-w-sm bg-gray-800 rounded-lg overflow-hidden shadow-lg group flex flex-col">
+    <article className="relative max-w-sm bg-card border border-border rounded-lg overflow-hidden group flex flex-col">
       <div className="absolute z-0 w-40 h-40 bg-brand-secondary rounded-full blur-3xl opacity-30 -top-5 left-10" />
 
       <div className="relative z-10 flex flex-col h-full">
@@ -82,7 +82,7 @@ const projects = [
   },
   {
     image: Airbus,
-    title: "Airbus Propulsion — Lessons-Learned Knowledge Tool",
+    title: "Airbus Propulsion Lessons Learned Knowledge Tool",
     description:
       "Designed and implemented a lessons-learned tool integrated with Google Docs and Sheets using HTML, CSS, and JavaScript (Apps Script). Delivered structured intake forms, metadata tagging, search, and automated reporting to improve knowledge capture across the propulsion team.",
     tags: ["JavaScript", "Apps Script", "Knowledge Management"],

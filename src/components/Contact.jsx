@@ -58,7 +58,7 @@ export default function Contact() {
           <div
             className="absolute z-0 top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-[300px]
             sm:w-[#400px] h-[300px] sm:h-[400px] rounded-full bg-gradient-to-r from-brand-primary via-brand-secondary 
-            to-brand-primary shadow-[0_0_70px_rgba(147,51,234,0.7)]"
+            to-brand-primary shadow-[0_0_70px_rgba(0,119,204,0.45)]"
           ></div>
           <img
             src={imghero}
