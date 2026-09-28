@@ -1,0 +1,1 @@
+- [GitHub push authentication](github-push-authentication.md) — Git CLI and Replit's GitHub connection can differ; preserve commit identity when publishing through the connector.
